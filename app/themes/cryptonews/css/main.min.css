@@ -628,7 +628,7 @@ nav ul {
 .button {
     display: inline-block;
     padding: 12px 14px;
-    border: 1px solid var(--cn-primary-color);
+   
     border-radius: 8px;
     font-size: 14px;
     font-weight: 600;
@@ -638,7 +638,7 @@ nav ul {
     color: var(--cn-color-white);
     text-decoration: none;
     text-transform: lowercase;
-    background-color: var(--cn-primary-color);
+    background-color: #ffca1d;
     cursor: pointer;
     transition: all .3s ease-in-out
 }
@@ -961,7 +961,7 @@ html.dark-mode .site-search-toggle {
     margin-right: 10px;
     width: 18px;
     height: 18px;
-    color: var(--cn-primary-color)
+    color: #ffca1d;
 }
 
 .site-search-toggle:hover {
@@ -1178,7 +1178,7 @@ html.dark-mode .crypto-price-card {
     z-index: 10;
     width: 100%;
     height: 5px;
-    background-color: var(--cn-primary-color)
+    background-color: #ffca1d;
 }
 
 .featured-posts__button:hover {
@@ -4413,7 +4413,7 @@ html.dark-mode .main-menu {
     margin-left: 4px;
     width: 7px;
     height: 7px;
-    color: var(--cn-primary-color);
+    color:  #ffca1d;
     transform: rotate(90deg);
     transition: transform .3s ease-in-out
 }
