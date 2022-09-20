@@ -981,7 +981,7 @@ html.dark-mode .site-search-toggle {
     font-weight: 500;
     line-height: 1;
     color: var(--cn-site-search-toggle-text-color);
-    text-transform: lowercase
+    text-transform: capitalize
 }
 
 .crypto-price-card {
