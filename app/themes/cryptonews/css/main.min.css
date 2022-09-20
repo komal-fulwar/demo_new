@@ -2001,8 +2001,10 @@ html.dark-mode .newsletter::before {
     padding: 16px 20px;
     border: 0;
     border-radius: 0 8px 8px 0;
-    background-color: #ebe2b2;
-    color: var(--cn-color-white);
+    background-color: rgb(150,103,66);
+   
+    background: linear-gradient(90deg, rgba(150,103,66,1) 0%, rgba(235,226,178,1) 35%, rgba(160,121,77,1) 100%);
+    color: rgb(78, 60, 46);
     font-size: 16px;
     font-weight: 600;
     line-height: 1;
