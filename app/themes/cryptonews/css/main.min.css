@@ -635,17 +635,18 @@ nav ul {
     line-height: 1;
     letter-spacing: -.2px;
     text-align: center;
-    color: var(--cn-color-white);
+    color: rgb(78, 60, 46);
     text-decoration: none;
     text-transform: lowercase;
-    background-color: #ebe2b2;
+    background: rgb(150,103,66);
+    background: linear-gradient(90deg, rgba(150,103,66,1) 0%, rgba(235,226,178,1) 35%, rgba(160,121,77,1) 100%);
     cursor: pointer;
     transition: all .3s ease-in-out
 }
 
 .button:hover {
-    background-color: #ebe2b2;
-    border-color: #ebe2b2
+    background: rgb(150,103,66);
+    background: linear-gradient(90deg, rgba(150,103,66,1) 0%, rgba(235,226,178,1) 35%, rgba(160,121,77,1) 100%);
 }
 
 .button:active {
