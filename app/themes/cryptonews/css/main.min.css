@@ -556,12 +556,12 @@ nav ul {
 }
 
 ::-moz-selection {
-    background-color: #eadeab;
+    background-color: #ffca1d;
     color: var(--cn-color-white)
 }
 
 ::selection {
-    background-color: #eadeab;
+    background-color: #ffca1d;
     color: var(--cn-color-white)
 }
 
@@ -576,7 +576,7 @@ nav ul {
     text-align: center;
     padding: 1em;
     text-decoration: underline;
-    background: #eadeab;
+    background: #ffca1d;
     transition: transform .3s ease-in-out;
     transform: translate(-50%, -100%);
     pointer-events: none
@@ -603,7 +603,7 @@ nav ul {
 .post-archive__description a,
 .post-detail__posted a,
 .service-archive__description a {
-    color: #eadeab;
+    color: #ffca1d;
     -webkit-text-decoration-color: rgba(var(--cn-primary-color-rgb), .2);
     text-decoration-color: rgba(var(--cn-primary-color-rgb), .2);
     text-decoration-thickness: 1px;
@@ -621,8 +621,8 @@ nav ul {
 .post-archive__description a:hover,
 .post-detail__posted a:hover,
 .service-archive__description a:hover {
-    -webkit-text-decoration-color: #eadeab;
-    text-decoration-color:#eadeab;
+    -webkit-text-decoration-color: #ffca1d;
+    text-decoration-color:#ffca1d;
 }
 
 .button {
@@ -638,14 +638,14 @@ nav ul {
     color: var(--cn-color-white);
     text-decoration: none;
     text-transform: lowercase;
-    background-color: #eadeab;
+    background-color: #ffca1d;
     cursor: pointer;
     transition: all .3s ease-in-out
 }
 
 .button:hover {
-    background-color: #eadeab;
-    border-color: #eadeab
+    background-color: #ffca1d;
+    border-color: #ffca1d
 }
 
 .button:active {
@@ -656,7 +656,7 @@ nav ul {
 .button:focus,
 .button:focus-visible {
     outline: 0;
-    box-shadow: 0 0 10px 0 #eadeab
+    box-shadow: 0 0 10px 0 #ffca1d
 }
 
 .button--size-small {
@@ -672,13 +672,13 @@ nav ul {
 .button--color-white {
     background-color: var(--cn-color-white);
     border-color: var(--cn-color-white);
-    color: #eadeab
+    color: #ffca1d
 }
 
 .button--color-white:hover {
     background-color: var(--cn-color-white);
     border-color: var(--cn-color-white);
-    color: #eadeab;
+    color: #ffca1d;
 }
 
 .button--color-yellow {
@@ -706,13 +706,13 @@ nav ul {
 
 .button--style-ghost {
     background-color: transparent;
-    color: #eadeab;
-    border: 1px solid #eadeab
+    color: #ffca1d;
+    border: 1px solid #ffca1d
 }
 
 .button--style-ghost:hover {
-    background-color: #eadeab;
-    border-color: #eadeab;
+    background-color: #ffca1d;
+    border-color: #ffca1d;
     color: var(--cn-color-white)
 }
 
@@ -722,7 +722,7 @@ nav ul {
 
 .button--style-ghost:focus,
 .button--style-ghost:focus-visible {
-    box-shadow: 0 0 0 1px #eadeab inset
+    box-shadow: 0 0 0 1px #ffca1d inset
 }
 
 .back-button {
@@ -875,7 +875,7 @@ html.is-site-search-active .site-search {
 .site-search .icon-search {
     width: 18px;
     height: 18px;
-    color: #eadeab
+    color: #ffca1d
 }
 
 .site-search__form {
@@ -961,7 +961,7 @@ html.dark-mode .site-search-toggle {
     margin-right: 10px;
     width: 18px;
     height: 18px;
-    color: #eadeab;
+    color: #ffca1d;
 }
 
 .site-search-toggle:hover {
@@ -1178,7 +1178,7 @@ html.dark-mode .crypto-price-card {
     z-index: 10;
     width: 100%;
     height: 5px;
-    background-color: #eadeab;
+    background-color: #ffca1d;
 }
 
 .featured-posts__button:hover {
@@ -1803,7 +1803,7 @@ html.dark-mode .author-bio__photo::before {
 }
 
 .community-link {
-    --cn-community-link-color: #eadeab;
+    --cn-community-link-color: #ffca1d;
     --cn-community-link-icon-size: 30px;
     position: relative;
     display: flex;
@@ -2000,7 +2000,7 @@ html.dark-mode .newsletter::before {
     padding: 16px 20px;
     border: 0;
     border-radius: 0 8px 8px 0;
-    background-color: #eadeab;
+    background-color: #ffca1d;
     color: var(--cn-color-white);
     font-size: 16px;
     font-weight: 600;
@@ -2012,8 +2012,8 @@ html.dark-mode .newsletter::before {
 }
 
 .newsletter__button:hover {
-    background-color: #eadeab;
-    border-color: #eadeab
+    background-color: #ffca1d;
+    border-color: #ffca1d
 }
 
 .newsletter__button:active {
@@ -2121,7 +2121,7 @@ html.dark-mode .newsletter::before {
     display: inline-block;
     font-size: 14px;
     line-height: 1.29;
-    color: #eadeab;
+    color: #ffca1d;
     -webkit-text-decoration-color: rgba(var(--cn-primary-color-rgb), .2);
     text-decoration-color: rgba(var(--cn-primary-color-rgb), .2);
     text-decoration-thickness: 1px;
@@ -2239,8 +2239,8 @@ html.dark-mode .pagination {
 
 .pagination .page-numbers.current {
     color: var(--cn-color-white);
-    background-color: #eadeab;
-    border-color: #eadeab
+    background-color: #ffca1d;
+    border-color: #ffca1d
 }
 
 .pagination .page-numbers.disabled {
@@ -2259,7 +2259,7 @@ html.dark-mode .pagination {
 
 .pagination .page-numbers.next:hover,
 .pagination .page-numbers.prev:hover {
-    color: #eadeab;
+    color: #ffca1d;
     border-color: transparent
 }
 
@@ -2315,7 +2315,7 @@ html.dark-mode .pagination {
     z-index: 10;
     width: 100%;
     height: 2px;
-    background-color: #eadeab
+    background-color: #ffca1d
 }
 
 .sidebar-feautred-posts__button:hover {
@@ -2600,8 +2600,8 @@ html.dark-mode .fact-card {
 }
 
 .fact-card:hover {
-    background-color: #eadeab;
-    border-color: #eadeab
+    background-color: #ffca1d;
+    border-color: #ffca1d
 }
 
 .fact-card:hover .fact-card__icon,
@@ -2645,7 +2645,7 @@ html.dark-mode .fact-card {
     font-size: 30px;
     line-height: 1;
     letter-spacing: .33px;
-    color: #eadeab
+    color: #ffca1d
 }
 
 @media (min-width:64rem) {
@@ -2839,7 +2839,7 @@ html.dark-mode .fact-card {
     width: 0;
     height: 10px;
     border-radius: 5px;
-    background-color: #eadeab;
+    background-color: #ffca1d;
     -webkit-animation-duration: 1s;
     animation-duration: 1s;
     -webkit-animation-name: progressbar-line-animation;
@@ -2896,7 +2896,7 @@ html.dark-mode .fact-card {
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #eadeab;
+    color: #ffca1d;
     transition: opacity 0s linear .3s
 }
 
@@ -2914,7 +2914,7 @@ html.dark-mode .fact-card {
     width: 44px;
     height: 2px;
     border-radius: 1px;
-    background-color: #eadeab;
+    background-color: #ffca1d;
     transition: transform .3s ease-in-out;
     transition: top .15s ease-in-out .15s, transform .15s ease-in-out 0s, opacity .15s ease-in-out .15s
 }
@@ -3029,7 +3029,7 @@ html.is-mobile-nav-active .mobile-nav-toggle::after {
     max-width: 360px;
     padding: 20px;
     border-radius: 16px;
-    background: #eadeab;
+    background: #ffca1d;
     color: var(--cn-color-white);
     transform: translate3d(100%, 0, 0);
     transition: all .3s ease-in-out .3s;
@@ -3177,8 +3177,8 @@ html.is-mobile-nav-active .mobile-nav-toggle::after {
 }
 
 .related-terms__link:hover {
-    background-color: #eadeab;
-    border-color: #eadeab;
+    background-color: #ffca1d;
+    border-color: #ffca1d;
     color: var(--cn-color-white)
 }
 
@@ -3332,7 +3332,7 @@ html.dark-mode .toc {
         z-index: 10;
         border-style: solid;
         border-width: 11px 0 11px 12px;
-        border-color: transparent transparent transparent #eadeab;
+        border-color: transparent transparent transparent #ffca1d;
         transition: opacity .3s ease-in-out
     }
     .toc__link:hover {
@@ -3460,7 +3460,7 @@ html.dark-mode .toc {
 }
 
 .glossary-terms-cloud__link:hover {
-    background-color: #eadeab
+    background-color: #ffca1d
 }
 
 .glossary-terms-cloud__action {
@@ -3951,7 +3951,7 @@ body.page-template-cooperation .mode-toggle--type-main {
 }
 
 .header-top {
-    --cn-header-top-bg: #eadeab;
+    --cn-header-top-bg: #ffca1d;
     position: relative;
     z-index: 1100;
     display: none;
@@ -3976,12 +3976,12 @@ html.dark-mode .header-top {
 
 .header-top ::-moz-selection {
     background-color: var(--cn-color-white);
-    color: #eadeab
+    color: #ffca1d
 }
 
 .header-top ::selection {
     background-color: var(--cn-color-white);
-    color: #eadeab
+    color: #ffca1d
 }
 
 .header {
@@ -4151,7 +4151,7 @@ body.error404 .content {
 }
 
 .footer {
-    --cn-footer-bg: #eadeab;
+    --cn-footer-bg: #ffca1d;
     background-color: var(--cn-footer-bg)
 }
 
@@ -4161,12 +4161,12 @@ html.dark-mode .footer {
 
 .footer ::-moz-selection {
     background-color: var(--cn-color-white);
-    color: #eadeab
+    color: #ffca1d
 }
 
 .footer ::selection {
     background-color: var(--cn-color-white);
-    color: #eadeab
+    color: #ffca1d
 }
 
 .footer__bottom {
@@ -4314,7 +4314,7 @@ html.dark-mode .main-menu {
     letter-spacing: -.1px;
     color: var(--cn-main-nav-color);
     text-decoration: none;
-   
+    text-transform: capitalize
 }
 
 .main-menu>.menu-item>a::before {
@@ -4325,7 +4325,7 @@ html.dark-mode .main-menu {
     left: 0;
     width: 100%;
     height: 2px;
-    background-color: #eadeab;
+    background-color: #ffca1d;
     transition: opacity .3s ease-in-out
 }
 
@@ -4359,7 +4359,7 @@ html.dark-mode .main-menu {
     padding-bottom: 14px;
     padding-left: 276px;
     width: 100%;
-    background-color: #eadeab;
+    background-color: #ffca1d;
     transition: all .3s ease-in-out
 }
 
@@ -4413,7 +4413,7 @@ html.dark-mode .main-menu {
     margin-left: 4px;
     width: 7px;
     height: 7px;
-    color:  #eadeab;
+    color:  #ffca1d;
     transform: rotate(90deg);
     transition: transform .3s ease-in-out
 }
@@ -4678,7 +4678,7 @@ html.is-mobile-nav-active #wpadminbar {
     font-weight: 600;
     line-height: .83;
     letter-spacing: -.24px;
-    color: #eadeab;
+    color: #ffca1d;
     text-transform: lowercase
 }
 
@@ -4808,7 +4808,7 @@ html.dark-mode .blocks {
 }
 
 .blocks a:not([class]) {
-    color: #eadeab;
+    color: #ffca1d;
     -webkit-text-decoration-color: rgba(var(--cn-primary-color-rgb), .2);
     text-decoration-color: rgba(var(--cn-primary-color-rgb), .2);
     text-decoration-thickness: 1px;
@@ -4820,8 +4820,8 @@ html.dark-mode .blocks {
 }
 
 .blocks a:not([class]):hover {
-    -webkit-text-decoration-color: #eadeab;
-    text-decoration-color: #eadeab
+    -webkit-text-decoration-color: #ffca1d;
+    text-decoration-color: #ffca1d
 }
 
 .blocks>* {
@@ -4981,7 +4981,7 @@ html.dark-mode .blocks {
     left: 10px;
     width: 16px;
     height: 16px;
-    border: 1px solid #eadeab;
+    border: 1px solid #ffca1d;
     border-radius: 50%
 }
 
@@ -5319,7 +5319,7 @@ html.dark-mode .blocks {
 }
 
 #rank-math-faq .rank-math-list-item--is-active .rank-math-question {
-    color: #eadeab
+    color: #ffca1d
 }
 
 #rank-math-faq .rank-math-list-item--is-active .rank-math-question .icon {
@@ -5674,7 +5674,7 @@ body.admin-bar .request-form {
 }
 
 .post-loop:hover .post-loop__link {
-    color: #eadeab
+    color: #ffca1d
 }
 
 .post-loop__media {
@@ -5878,7 +5878,7 @@ body.admin-bar .request-form {
 }
 
 .post-featured__link:hover {
-    color: #eadeab
+    color: #ffca1d
 }
 
 @media (min-width:45rem) {
@@ -5895,7 +5895,7 @@ body.admin-bar .request-form {
         color: var(--cn-title-color)
     }
     .post-featured__link:hover {
-        color: #eadeab
+        color: #ffca1d
     }
 }
 
@@ -6086,7 +6086,7 @@ body.admin-bar .request-form {
 
 .post-detail__category-link:hover {
     color: var(--cn-color-white);
-    background-color: #eadeab
+    background-color: #ffca1d
 }
 
 .post-detail__media {
@@ -6461,7 +6461,7 @@ body.admin-bar .glossary-archive-nav {
 }
 
 .glossary-archive-nav__item--is-active .glossary-archive-nav__link {
-    background-color: #eadeab;
+    background-color: #ffca1d;
     color: var(--cn-color-white)
 }
 
@@ -6756,7 +6756,7 @@ body.admin-bar .glossary-archive-nav {
 }
 
 .article-loop:hover .article-loop__link {
-    color: #eadeab
+    color: #ffca1d
 }
 
 .article-loop__media {
@@ -7045,7 +7045,7 @@ body.admin-bar .glossary-archive-nav {
 
 .not-found {
     border-radius: 16px 16px 0 0;
-    background-color: #eadeab;
+    background-color: #ffca1d;
     background-image: url(../images/not-found-bg.svg);
     background-position: 50% 50%;
     background-repeat: no-repeat
@@ -7684,7 +7684,7 @@ body.admin-bar .glossary-archive-nav {
 }
 
 .search-result-loop__link {
-    color: #eadeab;
+    color: #ffca1d;
     -webkit-text-decoration-color: rgba(var(--cn-primary-color-rgb), .2);
     text-decoration-color: rgba(var(--cn-primary-color-rgb), .2);
     text-decoration-thickness: 1px;
@@ -7696,8 +7696,8 @@ body.admin-bar .glossary-archive-nav {
 }
 
 .search-result-loop__link:hover {
-    -webkit-text-decoration-color: #eadeab;
-    text-decoration-color: #eadeab
+    -webkit-text-decoration-color: #ffca1d;
+    text-decoration-color: #ffca1d
 }
 
 .search-result-loop__summary p:last-child {
@@ -7979,7 +7979,7 @@ body.admin-bar .glossary-archive-nav {
 
 @media (min-width:64rem) {
     .learn-nav__link:hover {
-        color: #eadeab
+        color: #ffca1d
     }
     .learn-nav__link:hover .learn-nav__icon {
         transform: scale(1.08)
@@ -8098,7 +8098,7 @@ body.admin-bar .glossary-archive-nav {
     bottom: 0;
     width: 100%;
     height: 5px;
-    background-color: #eadeab
+    background-color: #ffca1d
 }
 
 @media (min-width:45rem) {
@@ -8336,7 +8336,7 @@ body.admin-bar .glossary-archive-nav {
     margin-right: 10px;
     width: 28px;
     height: 28px;
-    color: #eadeab
+    color: #ffca1d
 }
 
 .learn-glossary__latest {
@@ -8415,16 +8415,16 @@ body.admin-bar .glossary-archive-nav {
 }
 
 .dataTable .sorting_asc::before {
-    border-bottom-color: #eadeab
+    border-bottom-color: #ffca1d
 }
 
 .dataTable .sorting_desc::after {
-    border-top-color: #eadeab
+    border-top-color: #ffca1d
 }
 
 @media (min-width:64rem) {
     .dataTable .sorting:hover {
-        color: #eadeab
+        color: #ffca1d
     }
 }
 
@@ -8474,8 +8474,8 @@ body.admin-bar .glossary-archive-nav {
 
 .dataTables_paginate .paginate_button.current {
     color: var(--cn-color-white);
-    background-color: #eadeab;
-    border-color: #eadeab
+    background-color: #ffca1d;
+    border-color: #ffca1d
 }
 
 .dataTables_paginate .paginate_button.disabled {
@@ -8755,7 +8755,7 @@ html.dark-mode .swiper-pagination-bullets {
 }
 
 .swiper-pagination-bullet:hover {
-    border-color: #eadeab;
+    border-color: #ffca1d;
 }
 
 .swiper-pagination-bullet-active {
